@@ -1,0 +1,12 @@
+{
+  "profile": "full",
+  "purpose": "use every valid downloaded training sequence window",
+  "min_views": 5,
+  "max_views": 20,
+  "window_stride": 20,
+  "max_samples_per_dataset": 0,
+  "max_shard_gb": 1.0,
+  "max_samples_per_shard": 0,
+  "inspect_decode_images": 500,
+  "validate_decode_samples": 500
+}

@@ -1,0 +1,59 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Datasets and generated artifacts
+data/
+datasets/
+outputs/
+output/
+results/
+logs/
+cache/
+tmp/
+wandb/
+runs/
+
+# Model weights and checkpoints
+weights/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Rendered media, archives, and numerical dumps
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.ply
+*.npy
+*.npz
+*.csv
+*.tsv
+*.tar
+*.tar.gz
+*.zip
+
+# Documents and local tooling artifacts
+*.docx
+*.pdf
+.codex_work/
+.docx_work/
+.spreadsheet_work/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

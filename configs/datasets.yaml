@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "sorting_rule": "published size of the selected economical release; verify actual bytes after download",
+  "datasets": {
+    "blendedmvs": {
+      "order": 1,
+      "official_url": "https://github.com/YoYo000/BlendedMVS",
+      "selected_release": "BlendedMVS/BlendedMVG 768x576 low-resolution packages",
+      "recommended_modalities": ["rgb", "camera", "pair_list"],
+      "published_size_gb": 189,
+      "access": "GitHub Releases; preserve CC BY 4.0 attribution",
+      "adapter": "blendedmvs"
+    },
+    "scannetpp": {
+      "order": 2,
+      "official_url": "https://scannetpp.mlsg.cit.tum.de/scannetpp/",
+      "selected_release": "2MP DSLR images plus camera transforms and official splits",
+      "recommended_modalities": ["dslr_2mp_rgb", "camera", "split"],
+      "published_size_gb": 371,
+      "access": "application and personal token required",
+      "adapter": "scannetpp"
+    },
+    "unreal4k": {
+      "order": 3,
+      "official_url": "https://github.com/fabiotosi92/SMD-Nets",
+      "selected_release": "quarter-resolution release when license/source is accepted; otherwise official archives",
+      "recommended_modalities": ["left_rgb", "right_rgb", "calibration"],
+      "published_size_gb": 599,
+      "access": "check dataset asset terms separately from repository code license",
+      "adapter": "unreal4k"
+    },
+    "arkitscenes": {
+      "order": 4,
+      "official_url": "https://github.com/apple/ARKitScenes",
+      "selected_release": "raw lowres_wide plus intrinsics and trajectory",
+      "recommended_modalities": ["lowres_wide", "lowres_wide_intrinsics", "trajectory"],
+      "published_size_gb": 623.4,
+      "access": "Apple dataset terms; selected raw assets may be smaller than this reference",
+      "adapter": "arkitscenes"
+    },
+    "dl3dv": {
+      "order": 5,
+      "official_url": "https://huggingface.co/datasets/DL3DV/DL3DV-ALL-480P",
+      "selected_release": "DL3DV-ALL-480P with released poses/metadata",
+      "recommended_modalities": ["480p_rgb", "camera", "split"],
+      "published_size_gb": 730,
+      "access": "Hugging Face gated dataset; authenticate on the cluster",
+      "adapter": "dl3dv"
+    },
+    "hypersim": {
+      "order": 6,
+      "official_url": "https://github.com/apple/ml-hypersim",
+      "selected_release": "final-preview RGB and camera metadata; depth optional",
+      "recommended_modalities": ["final_preview_rgb", "camera"],
+      "published_size_gb": 1900,
+      "access": "Apple dataset terms; source 3D assets may have separate terms",
+      "adapter": "hypersim"
+    },
+    "wildrgbd": {
+      "order": 7,
+      "official_url": "https://github.com/wildrgbd/wildrgbd",
+      "selected_release": "RGB sequences and poses, downloaded category by category",
+      "recommended_modalities": ["rgb", "camera", "split"],
+      "published_size_gb": 3370,
+      "access": "use the official category downloader and dataset terms",
+      "adapter": "wildrgbd"
+    },
+    "co3dv2": {
+      "order": 8,
+      "official_url": "https://github.com/facebookresearch/co3d",
+      "selected_release": "CO3Dv2 full release or a teacher-selected category subset",
+      "recommended_modalities": ["rgb", "frame_annotations", "sequence_annotations"],
+      "published_size_gb": 5500,
+      "access": "official downloader; comply with non-commercial/data terms",
+      "adapter": "co3dv2"
+    },
+    "objaverse": {
+      "order": 9,
+      "official_url": "https://objaverse.allenai.org/objaverse-1.0/",
+      "selected_release": "fixed license-filtered UID list, then local RGB/camera rendering",
+      "recommended_modalities": ["glb", "uid_metadata", "license", "rendered_rgb", "rendered_camera"],
+      "published_size_gb": 8890,
+      "access": "per-object licenses must be retained; AnySplat's exact 199K UID list is not required",
+      "adapter": "objaverse"
+    }
+  }
+}

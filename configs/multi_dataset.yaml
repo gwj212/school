@@ -1,0 +1,14 @@
+{
+  "samples_per_epoch": 250000,
+  "sources": [
+    {"name": "arkitscenes", "weight": 2.0, "shards": "$WDS_ROOT/arkitscenes/shards/shards.txt"},
+    {"name": "scannetpp", "weight": 2.0, "shards": "$WDS_ROOT/scannetpp/shards/shards.txt"},
+    {"name": "dl3dv", "weight": 2.0, "shards": "$WDS_ROOT/dl3dv/shards/shards.txt"},
+    {"name": "blendedmvs", "weight": 1.0, "shards": "$WDS_ROOT/blendedmvs/shards/shards.txt"},
+    {"name": "unreal4k", "weight": 1.0, "shards": "$WDS_ROOT/unreal4k/shards/shards.txt"},
+    {"name": "co3dv2", "weight": 1.0, "shards": "$WDS_ROOT/co3dv2/shards/shards.txt"},
+    {"name": "wildrgbd", "weight": 1.0, "shards": "$WDS_ROOT/wildrgbd/shards/shards.txt"},
+    {"name": "hypersim", "weight": 1.0, "shards": "$WDS_ROOT/hypersim/shards/shards.txt"},
+    {"name": "objaverse", "weight": 1.0, "shards": "$WDS_ROOT/objaverse/shards/shards.txt"}
+  ]
+}

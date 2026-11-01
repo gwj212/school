@@ -1,0 +1,10 @@
+{
+  "purpose": "held-out downstream validation for MVGenMaster 3D-prior adapter",
+  "scenes": [
+    "chair_620_101264_203062",
+    "laptop_373_41558_82973",
+    "bicycle_62_4318_10726",
+    "car_336_34863_64261",
+    "bottle_601_93006_187080"
+  ]
+}

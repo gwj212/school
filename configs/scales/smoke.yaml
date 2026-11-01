@@ -1,0 +1,12 @@
+{
+  "profile": "smoke",
+  "purpose": "format, decoding, WebDataset and cluster startup validation",
+  "min_views": 5,
+  "max_views": 8,
+  "window_stride": 8,
+  "max_samples_per_dataset": 32,
+  "max_shard_gb": 0.02,
+  "max_samples_per_shard": 1,
+  "inspect_decode_images": 20,
+  "validate_decode_samples": 32
+}
